@@ -43,7 +43,7 @@ spec:
         app: nginx-rtmp
       annotations:
         k8s.v1.cni.cncf.io/networks: '[
-            { "name": "sgi-net", "interface": "sgi-net" }
+            { "name": "sgi-net-nd", "interface": "sgi-net-nd" }
         ]'
     spec:
       #hostNetwork: true

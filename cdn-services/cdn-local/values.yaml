@@ -31,3 +31,13 @@ nginx:
     rtmp_orig: 1935
     rtmp_np: 31935
   replicas: 1
+
+network:
+  sriov:
+    enabled: true
+  networks:
+    - name: sgi-net-nd
+      type: netdevice
+      ipam: centralip
+      subnet: 13.1.1.0/24
+      gateway: 13.1.1.254
