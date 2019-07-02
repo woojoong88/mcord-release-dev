@@ -19,8 +19,8 @@ Congratulations! You have installed SR-IOV network device plugin into your Kuber
 
 Your configurations for SR-IOV network device plugin as following:
 
-    10-Gigabit NIC PCI address: {{ .Values.sriov.devicepci }}
-    SR-IOV device type: {{ .Values.sriov.devicetype }}
+    10-Gigabit NIC PCI address: {{ .Values.sriov_vfio.devicepci }}
+    SR-IOV device type: {{ .Values.sriov_vfio.devicetype }}
 
 You can run following command to check SR-IOV is working in Kubernetes cluster:
 
