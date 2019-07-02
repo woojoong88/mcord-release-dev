@@ -37,7 +37,7 @@ network:
     enabled: true
   networks:
     - name: sgi-net-nd
-      type: netdevice
+      type: sriov
       ipam: centralip
       subnet: 13.1.1.0/24
       gateway: 13.1.1.254
