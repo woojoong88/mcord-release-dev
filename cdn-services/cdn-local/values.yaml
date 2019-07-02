@@ -16,6 +16,7 @@
 cdn_node_selector: node3
 nginx_hostname: "nginx"
 local_vlc_hostname: "local_vlc"
+etcdurl: http://node1:32379
 
 remote_ip: 10.90.0.132
 stream_name: 1.stream
