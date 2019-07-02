@@ -19,7 +19,7 @@ sriovds:
   image: aweimeow/multus-sriov
 
 sriov_vfio:
-  name: srio_vfio
+  name: sriov_vfio
   devicepci: 04:00.0
   devicetype: vfio
 
